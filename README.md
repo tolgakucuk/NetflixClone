@@ -15,22 +15,23 @@ A simple clone of the Netflix ios app.
 
 ## Design Pattern
 
--- MVVM(Model-View-ViewModel)
+- MVVM(Model-View-ViewModel)
 
 ## Used Technologies
 
--- TableView
--- CollectionView
--- WebKit
--- CoreData
--- Notification Center
--- Delegation Pattern
+- UITabBar
+- TableView
+- CollectionView
+- WebKit
+- CoreData
+- Notification Center
+- Delegation Pattern
 
 ## Usage
--- Downloand or clone the project.
--- Downloand 'SDWebImage' third party library using Swift Package Manager.
--- Add the API key from TMDB and Google Developer Console to the relevant places in the `Constants > Constants.swift` file.
-``swift
+- Downloand or clone the project.
+- Downloand 'SDWebImage' third party library using Swift Package Manager.
+- Add the API key from TMDB and Google Developer Console to the relevant places in the `Constants > Constants.swift` file.
+```swift
 class Constants {
     static let API_KEY = "YOUR_TMDB_API_KEY"
     static let BASE_URL = "https://api.themoviedb.org"
@@ -43,13 +44,16 @@ class Constants {
 
 <table>
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
-     <td>Present day in purple and selected day in pink</td>
+    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss1.png" width=270 height=580></td>
+    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss2.png" width=270 height=580></td>
+    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss6.png" width=270 height=580></td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss1.png" width=270 height=480></td>
-    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss2.png" width=270 height=480></td>
-    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss6.png" width=270 height=480></td>
+    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss3.png" width=270 height=580></td>
+    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss5.png" width=270 height=580></td>
+    <td><img src="https://github.com/tolgakucuk/NetflixClone/blob/main/NetflixCloneApp/screenshots/ss4.png" width=270 height=580></td>
   </tr>
- </table>
+</table>
